@@ -1,2 +1,2 @@
 # thesis-airquality
- Masterarbeit: Untersuchung und Visualisierung von disaggrerieten Luftqualitätsdaten
+ Masterarbeit: Untersuchung und Visualisierung von disaggregrieten Luftqualitätsdaten
