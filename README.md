@@ -20,5 +20,6 @@ netCDF -> geoJSON: mit Python (3 step process)
 
 
 # TO DO
+- [x] Cogran Commandline via Python
 - [ ] Disaggregation mit Cogran
 - [ ] Orte finalisieren 
