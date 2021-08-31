@@ -19,7 +19,15 @@ netCDF -> geoJSON: mit Python (3 step process)
 
 
 
-# TO DO
-- [x] Cogran Commandline via Python
-- [ ] Disaggregation mit Cogran
-- [ ] Orte finalisieren 
+# Wichtig
+## TO DO
+- [ ] Satellitendaten von Kalifornien 
+- [ ] Luftqualitätsdaten von Google? -> Wenn nicht möglich, welche?
+- [ ] Sensordaten: USA, England(?), Dubai, DE, Holland(?) -> Highres für EU (Copernicus)
+- [ ] Disaggregation mit Cogran (Wie/Wo/Was)
+- [ ] Orte finalisieren
+- [ ] Visualisierung (Statisch/ Dynamisch - noch nicht festgelegt)
+
+## Fertig
+- [x] Cogran mit Python ausführen 
+- [x] netCDF -> csv -> geoJSON
