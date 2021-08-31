@@ -7,18 +7,28 @@ netCDF -> geoJSON: mit Python (3 step process)
 
 ## Datenquellen
 ### Sensordaten
+#### Europa
 1. luft.hamburg
 
-2. ??
+2. London Air (?) <https://www.londonair.org.uk/london/asp/dataspecies.asp?site1=&site2=&site3=&site4=&site5=&site6=&day1=1&month1=jan&year1=2020&day2=1&month2=jan&year2=2021&period=15min&species=PM25&ratidate=&res=6&Submit=Plot+graph> 
+
+#### USA
+1. EPA Sensordaten <https://www.epa.gov/outdoor-air-quality-data/download-daily-data>
+   - EPA: ganz USA 
+
+#### Etc.
+1. OpenAir <https://openaq.org/#/countries> 
+
+2. Google? / DPD ? 
+
 ### Satellitendaten
 #### Europa
 1. CAMS <https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=form>
    - Satellitendaten (high res für EU)
 
-2. EPA Sensordaten <https://www.epa.gov/outdoor-air-quality-data/download-daily-data>
-   - EPA: ganz USA 
+2. NASA <https://urs.earthdata.nasa.gov/>
+   - Login 
 
-3. Google? / DPD ? 
 ### Karten
 1. Stadtteile/ Bezirke Hamburg: ESRI <https://opendata-esri-de.opendata.arcgis.com/datasets/esri-de-content::stadtteile-hamburg/about>
 
