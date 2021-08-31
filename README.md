@@ -1,4 +1,4 @@
-# Masterarbeit: Untersuchung und Visualisierung von disaggregrieten LuftqualitÃ¤tsdaten
+# Masterarbeit: Untersuchung und Visualisierung von disaggregrieten Luftqualitätsdaten
 
 ## Technische Details
 ### Programmierung
@@ -6,14 +6,19 @@
 netCDF -> geoJSON: mit Python (3 step process) 
 
 ## Datenquellen
-### Europa
+### Sensordaten
+1. luft.hamburg
+
+2. ??
+### Satellitendaten
+#### Europa
 1. CAMS <https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-europe-air-quality-forecasts?tab=form>
-   - Satellitendaten (high res fÃ¼r EU)
+   - Satellitendaten (high res für EU)
 
 2. EPA Sensordaten <https://www.epa.gov/outdoor-air-quality-data/download-daily-data>
    - EPA: ganz USA 
 
-
+3. Google? / DPD ? 
 ### Karten
 1. Stadtteile/ Bezirke Hamburg: ESRI <https://opendata-esri-de.opendata.arcgis.com/datasets/esri-de-content::stadtteile-hamburg/about>
 
@@ -21,6 +26,7 @@ netCDF -> geoJSON: mit Python (3 step process)
 
 # Wichtig
 ## TO DO
+- [ ] API Konfigurieren (automatisieren?)
 - [ ] Satellitendaten von Kalifornien 
 - [ ] Luftqualitätsdaten von Google? -> Wenn nicht möglich, welche?
 - [ ] Sensordaten: USA, England(?), Dubai, DE, Holland(?) -> Highres für EU (Copernicus)
