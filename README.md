@@ -1,5 +1,3 @@
--*- coding: utf-8 -*-
-
 # Masterarbeit: Untersuchung und Visualisierung von disaggregrieten Luftqualitätsdaten
 
 ## Technische Details
@@ -36,7 +34,7 @@ netCDF -> geoJSON: mit Python (3 step process)
 
 
 
-# Wichtig
+# Wichtig :fire:
 ## TO DO
 - [ ] API Konfigurieren (automatisieren?) :hear_no_evil:
 - [ ] Satellitendaten von Kalifornien 
