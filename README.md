@@ -1,3 +1,5 @@
+-*- coding: utf-8 -*-
+
 # Masterarbeit: Untersuchung und Visualisierung von disaggregrieten Luftqualitätsdaten
 
 ## Technische Details
