@@ -36,15 +36,16 @@ netCDF -> geoJSON: mit Python (3 step process)
 
 # Wichtig :fire:
 ## TO DO
-- [ ] API Konfigurieren (automatisieren?) :hear_no_evil:
-- [ ] Satellitendaten von Kalifornien 
-- [ ] Sensordaten: USA, England(?), Dubai, DE, Holland(?) -> Highres für EU (Copernicus)
-- [ ] Disaggregation mit Cogran (Wie/Wo/Was)
-- [ ] Orte finalisieren
-- [ ] Visualisierung (Statisch/ Dynamisch - noch nicht festgelegt)
+- [ ] Barnes Interpolation 
+- [x] Satellitendaten von Kalifornien [data not filtered]
+- [x] Sensordaten: England, DE, Holland (Copernicus) [data for ENG, NL not filtered]
+- [ ] Visualisierung (Statisch)
+- [ ] Error analysis 
 
 ## Fertig
 - [x] Cogran mit Python ausführen 
 - [x] netCDF -> csv -> geoJSON
 - [x] Luftqualitätsdaten von Google? (ACCEPTED) :dizzy:
 - [x] ESRI Stadtteile/Bezirke (England, Cali., HH) 
+- [x] Disaggregation mit Cogran (Wie/Wo/Was)
+- [x] Orte finalisieren
