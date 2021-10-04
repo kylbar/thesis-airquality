@@ -7,6 +7,7 @@ netCDF zu geoJSON Datei
 
 + forces WGS84 projection on raster netCDF data
 
+ONLY for SATELLITE DATA
 
 """
 
@@ -108,38 +109,6 @@ def setDataframe_ESA(df):
         print(polygon_df_0.columns)
         
         print("\nInput file " + "[ " + df[29:] + " ]" + " converted to geoJSON")
-"""
-def setDataframe_openAQ(df): 
-    input_df = pd.read_csv(df)
-    
-    #sets UTC column to datatime formate + UTC stamp
-    input_df['utc'] = pd.to_datetime(input_df['utc'], 
-                                       format='%Y-%m-%d %H:%M:%S.%f', 
-                                       errors='coerce')
-    
-    temp_df = input_df.rename({'value': 'pm25_value'}, axis = 1)
-    temp_df = temp_df.drop(['parameter', 'unit', 'local', 'country'], axis = 1)
-    
-    input_df = temp_df
-
-    input_df = geopandas.GeoDataFrame(input_df, geometry=geopandas.points_from_xy(input_df.longitude, input_df.latitude))
-    input_df = geopandas.GeoDataFrame(input_df, crs='EPSG:4326') #set CRS to WGS84
-    
-
-    
-    input_df.to_csv('quebec_csv2.csv',index=False)
-    
-    world = geopandas.read_file(geopandas.datasets.get_path('naturalearth_lowres'))
-    #print(world.columns)
-    
-    
-    #Testing to see if data is correctly formatted 
-    ax = world[world.name == 'Canada'].plot(color = 'white', edgecolor = 'black')
-    ax.set(xlim= (-77, -70), ylim=(45.5, 48))
-    input_df.plot(ax=ax, color='blue')
-    plt.show()
-"""  
-    
     
 def main(): 
 
@@ -161,10 +130,6 @@ def main():
         
         
         
-        # OpenAQ
-        
-        #dataOpenAQ_csv = r'Daten/openAQ/Quebec_pm25_240721_250721.csv'
-        #setDataframe_openAQ(dataOpenAQ_csv)
 
         sys.exit(0)
    

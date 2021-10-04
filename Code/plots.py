@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep 21 11:31:05 2021
+FUN PLOTS 
 
 @author: kayla
 """
@@ -97,6 +97,8 @@ def correlationPlot(df):
     
     #plot1.show()
     #plot2.show()
+
+
 def main(): 
     
     print("\n------------------" + "\nDirectory Check:" + "\n------------------" + "\nCode is located in: " + os.getcwd()) #for double checking
