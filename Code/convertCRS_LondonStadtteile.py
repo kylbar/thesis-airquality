@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct  5 12:24:36 2021
-
-@author: kayla
+Author: Kayla Barginda
 """
 
 import os
@@ -13,14 +11,16 @@ import geopandas
 import matplotlib.pyplot as plt 
 import sys
 
+PATH = ''
+DATA = ''
 
 def change_dir():
     print("\nDirectory Change:" + "\nCode is located in: " + os.getcwd()) #for double checking
-    os.chdir('/Users/kayla/OneDrive/Geodäsie und Geoninformatik (M.Sc.)/4. Semester/Thesis/')
+    os.chdir(PATH)
     print("\nCurrent working directory: " + os.getcwd()) #for double checking
 
 def convertCRS_London(): 
-    file_path  = r"Data/Stadtteile/statistical-gis-boundaries-london/ESRI/London_Borough_Excluding_MHW.shp"
+    file_path  = DATA
     df = geopandas.read_file(file_path)
     
     temp = df[['NAME', 'geometry']]
