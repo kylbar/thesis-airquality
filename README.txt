@@ -1,6 +1,6 @@
 ********************
 
-Author: Kayla Barginda | 6066945
+Author: Kayla Barginda
 
 README to use in combination with the code for the Master's Thesis "Untersuchung und Visualisierung von disaggregierten Luftqualitätsdaten" (Investigation and Visualisation of Disaggregated Air Quality Data)
 
