@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 '''
-Author: Kayla Barginda | 6066945
+Author: Kayla Barginda
 
 
 About format_satellite.py: 
@@ -31,10 +31,11 @@ import matplotlib.pyplot as plt
 
 GET_PATH = r'Data/Copernicus/CAMS Data/'
 SAVE_PATH = r'Data/Copernicus/CSV Data/'
+DIR_PATH = ''
 
 def changeDirectory():
     print('\nDirectory Change:' + '\nCode is located in: ' + os.getcwd()) #for double checking
-    os.chdir('/Users/kayla/OneDrive/Geodäsie und Geoninformatik (M.Sc.)/4. Semester/Thesis/')
+    os.chdir(DIR_PATH)
     print('\nCurrent working directory: ' + os.getcwd()) #for double checking
     
 def convertnetCDF_hamburg(nc_file):
