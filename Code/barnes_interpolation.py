@@ -65,10 +65,12 @@ plt.rcdefaults()
 plt.rcParams['axes.formatter.use_locale'] = True
 
 PATH = r'Output/'
+DIR_PATH = ''
+
 
 def changeDirectory():
     print(r'\nDirectory Change:' + '\nCode is located in: ' + os.getcwd()) #for double checking
-    os.chdir(r'/Users/kayla/OneDrive/Geodäsie und Geoninformatik (M.Sc.)/4. Semester/Thesis/')
+    os.chdir(DIR_PATH)
     print(r'\nCurrent working directory: ' + os.getcwd()) #for double checking
 
 def calcDistance(X, Y, coords): #euklied distance between interpol  grid and sensor pt
