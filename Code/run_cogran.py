@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 '''
-Kayla Barginda (6066945) 
+Kayla Barginda
 
-Runs COGRAN inside Python script. 
+Runs COGRAN inside Python script. For this the command line tool COGRAN is needed.
 
 Uses python 'subprocess': all command line 'commands' must be given as strings in list. Variables are not given as strings. 
     
@@ -14,9 +14,11 @@ import sys
 import glob
 import subprocess
 
+DIR_PATH = ''
+
 def changeDirectory(): 
   print(r'Code is located in: ' + os.getcwd()) #for double checking
-  os.chdir(r'/Users/kayla/OneDrive/Geodäsie und Geoninformatik (M.Sc.)/4. Semester/Thesis/Output/')
+  os.chdir(DIR_PATH)
   print(r'Current working directory: ' + os.getcwd())
 
 
