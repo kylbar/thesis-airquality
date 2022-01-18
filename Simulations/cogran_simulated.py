@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 '''
-Author: Kayla Barginda | 6066945 
+Author: Kayla Barginda
 
 This files runs CoGran for the simulated data. Note: File names need to be changed manually.
 
