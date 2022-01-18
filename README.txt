@@ -6,6 +6,8 @@ README to use in combination with the code for the Master's Thesis "Untersuchung
 
 Note: all data that is created by the scripts format_sensors.py and format_satellite.py are already available within the project folder. The main script, barnes_interpolation.py, can be executed without executing the data formatting files first. However, in the event that the data is not already available in it's formatted form or different datasets are used, the sensor and satellite data needs to be formatted prior to the interpolation. The order of execution of these two scripts is arbitrary. 
 
+Double check DIR_PATH and PATH --> change to your own PATH(s)
+
 ********************
 NEEDED PYTHON PACKAGES: 
 
