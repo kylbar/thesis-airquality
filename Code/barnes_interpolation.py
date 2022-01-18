@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 '''
-Author: Kayla Barginda | 6066945
+Author: Kayla Barginda
 
 Functions: 
     changeDirectory(): changes current working directory
